@@ -1,0 +1,99 @@
+body{
+    background: url('../images/bg-desktop.svg') no-repeat;
+    background-color: hsl(257, 40%, 49%);
+    width: 1440px;
+    height: 800px;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-evenly;
+}
+
+.header{
+    height: 100px;
+}
+
+.header img{
+    margin-left: 75px;
+}
+
+.main{
+    font-family: 'poppins';
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.main .descricao{
+    display: flex;
+    flex-direction: column;
+}
+
+.main .descricao h1{
+    padding-top: 40px;
+}
+
+.main .descricao p{
+    padding-top: 40px;
+}
+
+.main .descricao .btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    margin-top: 20px;
+    width: 175px;
+    height: 50px;
+    border: 0;
+    border-radius: 25px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.456) ;
+    color: hsl(257, 40%, 49%);
+    text-decoration: none;
+}
+
+.main .descricao .btn:hover{
+    background-color: hsl(300, 69%, 71%);
+    cursor: pointer;
+    color: #ffff;
+    transition: 0.3s;
+}
+
+.main .descricao{
+    color: white;
+    width: 500px;
+}
+
+
+.footer{
+    height: 25px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.footer .social{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.footer .social a{
+    text-decoration: none;
+}
+
+.footer .social i{
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ffff;
+    width: 50px;
+    height: 50px;
+    border: 1px solid;
+    border-radius: 50%;
+    background-color: none;
+    margin: 15px;
+}
+
+.footer .social i:hover{
+    color: hsl(300, 69%, 71%);
+    transition: 0.3s;
+}
