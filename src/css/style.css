@@ -1,11 +1,11 @@
 body{
     background: url('../images/bg-desktop.svg') no-repeat;
     background-color: hsl(257, 40%, 49%);
-    width: 1440px;
-    height: 800px;
+    height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content:space-evenly;
+    background-size: cover;
 }
 
 .header{
@@ -73,10 +73,12 @@ body{
 .footer .social{
     display: flex;
     justify-content: flex-end;
+    margin-right: 50px;
 }
 
 .footer .social a{
     text-decoration: none;
+    margin-right: 25px;
 }
 
 .footer .social i{
@@ -90,7 +92,6 @@ body{
     border: 1px solid;
     border-radius: 50%;
     background-color: none;
-    margin: 15px;
 }
 
 .footer .social i:hover{
